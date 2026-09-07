@@ -1,0 +1,18 @@
+REM Author: not_ventsi
+REM Description: Just Nyan Cat.
+REM Version:	1.0
+DELAY 700
+GUI r
+DELAY 700
+STRING powershell
+ENTER
+DELAY 700
+STRING $DesktopPath = [Environment]::GetFolderPath("Desktop"); Invoke-WebRequest -Uri https://github.com/ventsidaytboi/nyancat-badusb-files/blob/main/nyan.txt -OutFile $DesktopPath/nyan.txt; Start-Process -FilePath "$DesktopPath/nyan.txt" 
+DELAY 600
+ENTER
+DELAY 1000
+GUI r
+DELAY 600
+STRING https://www.youtube.com/watch?v=2yJgwwDcgV8&list=RD2yJgwwDcgV8&start_radio=1
+DELAY 600
+ENTER
